@@ -5,10 +5,10 @@ Algoritmo Promedio
 	Escribir "Ingrese la cantidad de datos:"
 	Repetir
 		
-		Leer n
-		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+		Leer x
+		Si n <= 0 Entonces
+			Escribir "El nÃºmero debe ser positivo y distinto de cero".
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
