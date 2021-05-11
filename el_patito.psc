@@ -16,7 +16,7 @@ Algoritmo Promedio
 	
 	prom<-acum/(i-1)
 	
-	Escribir "El promedio es:",prom
+	Escribir "El promedio es: ",prom
 	
 FinAlgoritmo
 
