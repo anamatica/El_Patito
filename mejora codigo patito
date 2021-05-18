@@ -1,0 +1,53 @@
+Algoritmo Promedio
+	Escribir"ingrese la cantidad de datos"
+	Definir b Como Caracter
+	Repetir
+		Leer n
+		Si n<-0 Entonces
+			Escribir "El numero debe ser positivo y distinto de cero"
+			Escribir "introduzca un numero valido"
+		FinSi
+	Hasta Que n>0
+	acum<-0
+	Para i<-1 Hasta n Hacer 
+		Escribir "Ingrese el dato",i,":"
+		Escribir "ingrese la cantidad de datos:"
+		Repetir
+			Leer dato
+			Si dato<0 Entonces
+				Escribir" el dato debe ser positivo"
+				Escribir"Ingrese el dato",i,":"
+
+			FinSi
+		Hasta Que dato>=0
+acum<-acum+dato
+FinPara
+	prom<-acum/n
+	Escribir "El promedio es:",prom
+	Repetir
+		Repetir
+			Leer n
+			Si n<=0 Entonces 
+				Escribir"El numero debe ser positivo y distinto de cero"
+				Escribir"Introduzca un numero valido"
+			FinSi
+		Hasta Que n>0
+		acum<-0
+		Para i<-1 Hasta n Hacer 
+			Escribir"Ingrese el dato",i,":"
+			Repetir 
+				Leer dato 
+				Si dato<0 Entonces 
+					Escribir "El dato debe ser positivo"
+					Escribir"Ingrese el dato",i,":"
+				FinSi
+			Hasta Que dato>=0
+			acum<-acum+dato
+		FinPara
+		prom<-acum/n
+		Escribir"El dato es :",prom
+		Escribir "¿Desea Continuar? Pulse S para Seguir";
+		Leer b;
+	Mientras Que b="s" o b="S"
+
+FinAlgoritmo
