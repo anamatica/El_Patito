@@ -2,13 +2,14 @@
 
 Algoritmo Promedio
 Repetir
+	
 	Escribir "Ingrese la cantidad de datos:"
 	Repetir
 		
 		Leer n
 		Si n<=0 Entonces
-			Escribir "El nÃºmero debe ser positivo y distinto de cero."
-			Escribir "Introduzca un nÃºmero vÃ¡lido."
+			Escribir "El número debe ser positivo y distinto de cero."
+			Escribir "Introduzca un número válido."
 		Fin Si
 		
 	Hasta Que n>0
@@ -31,11 +32,13 @@ Repetir
 	prom<-acum/n
 	
 	Escribir "El promedio es: ",prom
-	Escribir  "Â¿Desea continuar con el programa? Si es sÃ­, pulsa (s) si es no, pulsa (ENTER)"
-	Leer (a)
-	Si a=""
-	  Escribir "Seguimos entonces con el programa"
-        FinSi
-Hasta que a="s"
+	
+	Escribir "¿Desea seguir con el programa? Si es no, pulsa (s) si es sí, pulsa (ENTER)"
+	Leer a
+	Si a= ""
+		Escribir "Seguimos con el programa"
+	FinSi
+Hasta que a= "s"
+	
 FinAlgoritmo
 
