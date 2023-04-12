@@ -1,7 +1,7 @@
 //Calcula el promedio de una lista de N datos
 
-Algoritmo Promedio
-	
+Algoritmo PatitoArreglado
+	Hacer
 	Escribir "Ingrese la cantidad de datos:"
 	Repetir
 		
@@ -31,6 +31,8 @@ Algoritmo Promedio
 	prom<-acum/n
 	
 	Escribir "El promedio es: ",prom
-	
+	Escribir "¿Desea continuar?"
+	Leer resp
+	Hasta Que resp="no"
 FinAlgoritmo
 
