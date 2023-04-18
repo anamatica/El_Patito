@@ -1,17 +1,16 @@
 //Calcula el promedio de una lista de N datos
 
 Algoritmo Promedio
-	
-	Escribir "Ingrese la cantidad de datos:"
 	Repetir
+		Escribir "Ingrese la cantidad de datos:"
 		
 		Leer n
-		Si n<=0 Entonces
+		Si n<0 Entonces
 			Escribir "El número debe ser positivo y distinto de cero."
 			Escribir "Introduzca un número válido."
 		Fin Si
 		
-	Hasta Que n>0
+		Si n>0 Entonces
 	
 	acum<-0
 	
@@ -27,10 +26,12 @@ Algoritmo Promedio
 		
 		acum<-acum+dato
 	Fin Para
-	
 	prom<-acum/n
-	
+FinSi
+
 	Escribir "El promedio es: ",prom
 	
+	Escribir "Para salir marque numero de datos es 0"
+Hasta Que n=0
 FinAlgoritmo
 
