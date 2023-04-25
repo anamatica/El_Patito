@@ -1,4 +1,3 @@
-
 // Inicio del programa llamado "Promedio primera y segunda mejora".
 
 Algoritmo Promedio_primera_y_segunda_mejora
@@ -83,17 +82,27 @@ Algoritmo Promedio_primera_y_segunda_mejora
 				// A continuación se nos presenta una frase donde nos dice el promedio calculado de los datos 
 				// ingresados anteriores es el resultado que se le ha asignado a la varibale prom (promedio).
 				
-			Escribir "El promedio es: ",prom
-			// Además se nos presenta una pregunta para saber si queremos seguir calculando nuevos promedios 
-			// o finalizar el programa.
-			Escribir "¿Desea seguir calculando nuevos promedios?"
-			// Ahora el programa lee opciones y según lo leido se volverá a realizar el bucle repetir
-			// o no. Ya que para que se repita se debe introducir x porque asi lo hemos asignado en 
-			// el bucle anterior Mientras.
-			Leer opciones
-			// El bucle Repetir se reiterará hasta que la variable opciones no sea igual a la letra x.
-		Hasta Que opciones <> "x"
-		// Fin bucle Mientras.
-	FinMientras
-	// Fin del programa.
+				Escribir "El promedio es: ",prom
+				
+				// Además se nos presenta una pregunta para saber si queremos seguir calculando nuevos promedios 
+				// o finalizar el programa.
+				
+				Escribir "¿Desea seguir calculando nuevos promedios?"
+				
+				// Ahora el programa lee opciones y según lo leido se volverá a realizar el bucle repetir
+				// o no. Ya que para que se repita se debe introducir x porque asi lo hemos asignado en 
+				// el bucle anterior Mientras.
+				
+				Leer opciones
+				
+				// El bucle Repetir se reiterará hasta que la variable opciones no sea igual a la letra x.
+				
+			Hasta Que opciones <> "x"
+			
+			// Fin bucle Mientras.
+			
+		FinMientras
+		
+		// Fin del programa.
+		
 FinAlgoritmo
