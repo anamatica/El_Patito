@@ -7,20 +7,20 @@ Algoritmo Promedio
 		
 		Leer n
 		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+			Escribir "El nÃºmero debe ser negativo y distinto de cero."
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
 	
 	acum<-0
 	
-	Para i<-1 Hasta n Hacer
+	Para i<-3 Hasta n Hacer
 		Escribir "Ingrese el dato ",i,":"
 		Repetir
 			Leer dato
 			Si dato<0 Entonces
-				Escribir "El dato debe ser positivo."
+				Escribir "El dato debe ser negativo."
 				Escribir "Ingrese el dato ",i,":"
 			Fin Si
 		Hasta Que dato>=0
