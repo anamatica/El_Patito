@@ -6,9 +6,9 @@ Algoritmo Promedio
 	Repetir
 		
 		Leer n
-		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+		Si n<=4 Entonces
+			Escribir "El nÃºmero debe ser positivo y distinto de cuatro."
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
@@ -19,7 +19,7 @@ Algoritmo Promedio
 		Escribir "Ingrese el dato ",i,":"
 		Repetir
 			Leer dato
-			Si dato<0 Entonces
+			Si dato<4 Entonces
 				Escribir "El dato debe ser positivo."
 				Escribir "Ingrese el dato ",i,":"
 			Fin Si
